@@ -6,9 +6,9 @@ import { Footer } from "../components/Footer";
 const Services = () => {
   const navigate = useNavigate();
     return (
-      <div className="relative bg-[#f5f5f5] dark:bg-[#373737]">
+      <div className="relative bg-[#f5f5f5] ">
           <div className="w-full h-full relative overflow-hidden ">
-              <div className="flex w-full h-[1920px]  flex-col justify-between">
+              <div className="flex w-full h-[1920px]  flex-col">
                   <div className="w-full h-[350px] relative">
                     <img 
                       src='/images/logo.png'
@@ -29,17 +29,17 @@ const Services = () => {
                         icon={XCircleIcon}
                         color={"#AF0000"}
                         text="ENCERRAR"
-                        onClick={() => navigate("/closeService")} // Navegação adaptada
+                        onClick={() => navigate("/closeService")}
                       />
                     </div>
                   </div>
                   <div className="flex pt-5 h-[1400px]">
                     <div className="flex flex-col w-full">
                         <div className="flex w-full flex-col items-center text-center">
-                          <span className="font-montserrat text-[38px] text-[#202020] dark:text-white font-bold">
+                          <span className="font-montserrat text-[38px] text-[#202020]  font-bold">
                             Serviços em destaque
                           </span>
-                          <span className="mt-2 font-montserrat text-[18px] text-[#202020] dark:text-white">
+                          <span className="mt-2 font-montserrat text-[18px] text-[#202020] ">
                             Explore os serviços mais populares por categoria ou acesse todos os serviços.
                           </span>
                         </div>
@@ -78,7 +78,7 @@ const Services = () => {
               <Footer/>
                <div
                   className="absolute bottom-[108px] left-8 z-30 w-[120px] h-[100px]"
-                  onClick={() => navigate("/chatBot")}
+                  onClick={() => navigate("/chatbot")}
                 >
                   <img 
                     src="/images/chat-ada.png"

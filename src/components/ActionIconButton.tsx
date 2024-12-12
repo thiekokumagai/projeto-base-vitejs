@@ -18,7 +18,7 @@ export const ActionIconButton = ({
       onClick={onClick}
     >
       <DynamicIcon className={`size-10 ${color}`} style={{ color: color }} />
-      <span className="text-[#616161] font-intro text-xs dark:text-white">{text}</span>
+      <span className="text-[#616161] font-intro text-xs ">{text}</span>
     </div>
   );
 };

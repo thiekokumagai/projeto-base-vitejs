@@ -205,7 +205,7 @@ export const ServicosEmDestaque = () => {
       </div>
 
       <div className="text-center mt-12">
-        <button className="px-6 py-2 border border-[#0058AF] dark:border-white text-[#0058AF] dark:text-white rounded-3xl hover:bg-[#0058AF]  hover:text-white transition duration-300">
+        <button className="px-6 py-2 border border-[#0058AF]  text-[#0058AF]  rounded-3xl hover:bg-[#0058AF]  hover:text-white transition duration-300">
           Acessar todos os serviços
         </button>
       </div>
